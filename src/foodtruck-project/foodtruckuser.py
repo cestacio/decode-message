@@ -19,12 +19,15 @@ def prompt_user_for_cuisine():
 	user_food_pref = str(raw_input("What do you want to eat? "))
 	return user_food_pref	
 
+def prompt_user_for_truckname():
+	user_truck_pref = str(raw_input("Where do you want to eat?"))
+	return user_truck_pref
+
 def display_menu():
 	print """
-		Welcome to SF Food Truck Finder!
-		Please select from the options below:
+		Hungry? Please select from the options below:
 
-		A = Search By Cuisine
+		A = Search By Food Type
 		B = Search By Day
 		C = Search By Truck Name
 		X = exit SF Food Truck Finder
